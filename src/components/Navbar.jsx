@@ -4,9 +4,9 @@ const Navbar = () => {
     <div className=" flex justify-between mt-4">
      <div className=" flex">
      <div>
-        <img src={Logo} alt="" />
+        <img src={Logo} className="" alt="" />
       </div>
-      <div className="  flex ml-20 mt-2 list-none gap-8 text-xl font-bold">
+      <div className="  flex ml-2 md:ml-20 mt-1 md:mt-2 list-none gap-2 mt:gap-8 text-sm md:text-xl font-medium md:font-bold">
         <li className="text-red-500">Home</li>
         <li>About Us</li>
         <li>Pricing</li>
@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
      </div>
       <div>
-        <button className=" bg-black text-white font-bold px-8 py-2 text-base">Login</button>
+        <button className=" bg-black text-white font-medium md:font-bold px-3 md:px-8 py-2 text-sm md:text-base">Login</button>
       </div>
     </div>
   );

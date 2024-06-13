@@ -1,9 +1,11 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className=" mx-6 lg:mx-32">
+    <div className=" mx-2 lg:mx-32">
       <Navbar/>
+      <Hero/>
     </div>
   );
 };
