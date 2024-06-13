@@ -6,7 +6,7 @@ const Navbar = () => {
      <div>
         <img src={Logo} className="" alt="" />
       </div>
-      <div className="  flex ml-2 md:ml-20 mt-1 md:mt-2 list-none gap-2 mt:gap-8 text-sm md:text-xl font-medium md:font-bold">
+      <div className="  flex ml-2 md:ml-20 mt-1 md:mt-2 list-none gap-2 md:gap-8 text-sm md:text-xl font-medium md:font-bold">
         <li className="text-red-500">Home</li>
         <li>About Us</li>
         <li>Pricing</li>
